@@ -42,5 +42,5 @@ jobs:
 
       - name: Read secret
         run: |
-          SECRET_ID="flag-iam-7"
+          SECRET_ID="flag_iam_lab_7"
           gcloud secrets versions access latest --secret="$SECRET_ID" --project="$GCP_PROJECT"
